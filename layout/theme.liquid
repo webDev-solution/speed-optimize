@@ -100,7 +100,7 @@
       <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
       <link rel="preconnect" href="https://fonts.shopify.com" crossorigin>
       <link rel="preconnect" href="https://monorail-edge.shopifysvc.com">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" async></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   
 
       {%- liquid
@@ -892,6 +892,9 @@ var afterpay_js_snippet_version = '1.1.6';
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+    Fancybox.bind('[data-fancybox]', {
+      // Custom options
+    });        
     const modalContainer = document.querySelector(".modal-container-sanobu");
     const closeModalButton = document.querySelector(".close-modal-sanobu");
     let currentURL = window.location.href;
