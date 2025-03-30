@@ -1,10 +1,15 @@
 class ProductCarouselComponent extends HTMLElement {
   constructor() {
     super();
-    this.init();
+    // this.init();
+  }
+  connectedCallback() {
+    document.addEventListener("DOMContentLoaded", () => this.init());
   }
   init() {
-    $(this).slick({
+    const $carousel = $(this.querySelector(".carousel"));
+    if ($carousel.length) {
+      $carousel.slick({
       infinite: true,
       slidesToShow: 5,
       slidesToScroll: 1,

@@ -24,25 +24,27 @@
 </div>
 
 <script>
-   $('.inner_product-review-caurosel').slick({
-     centerMode: true,
-     centerPadding: '120px',
-     initialSlide: 2,
-     variableWidth: true,
-     infinite: true,
-     slidesToScroll: 1,
-     autoplay: true,
-     autoplaySpeed: 2000,
-     responsive: [
-     {
-      breakpoint: 768,
-      settings: {
-          centerPadding: '60px',
-          slidesToShow: 1
+  document.addEventListener("DOMContentLoaded", (event) => {  
+    $('.inner_product-review-caurosel').slick({
+      centerMode: true,
+      centerPadding: '120px',
+      initialSlide: 2,
+      variableWidth: true,
+      infinite: true,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+            centerPadding: '60px',
+            slidesToShow: 1
+        }
       }
-     }
-      ]
-   });
+        ]
+    });
+  });    
 </script>
 
 {% schema %}
