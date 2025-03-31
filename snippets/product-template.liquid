@@ -68,6 +68,11 @@
     font-size: clamp(17px, 1.3vw, 22px);
     font-weight: bold;
   }
+  {% if product.metafields.custom.small_icon_label_color != blank %}
+    .label_small_icon {
+      color:  {{  product.metafields.custom.small_icon_label_color }}
+    }
+  {% endif %}
 </style>
 
 {{ 'custom-product.scss.css' | asset_url | stylesheet_tag }}

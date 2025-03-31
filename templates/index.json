@@ -6,8 +6,8 @@
         "slide_ajM4qV": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Homepage-Desktop-Hero_2.png",
-            "image_mobile": "shopify:\/\/shop_images\/Homepage-Mobile-Hero_2.png"
+            "image": "shopify:\/\/shop_images\/minieggs_Header_web_desktop_1_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/minieggs_Header_web_mobile_1_1.png"
           }
         }
       },
@@ -22,21 +22,21 @@
         "interval": 5,
         "review_text": "20,000+ 5-Star Reviews",
         "review_count": 5,
-        "title": "The Best Tasting All-in-One Shake",
+        "title": "Mini Eggs Is Here",
         "title_font_size": 38,
         "title_color": "#232323",
         "use_custom_font": false,
         "header_font_family": "lato_n4",
-        "subtitle": "A delicious, nutrient dense shake that is designed to curb your sweet cravings and give your body everything it needs to thrive.",
+        "subtitle": "Your favourite Easter treat is back—but not for long!",
         "subtitle_font_size": 20,
         "subtitle_color": "#232323",
-        "button_text": "Taste the Difference",
-        "button_link": "shopify:\/\/products\/vanilla-milkshake-all-in-one-shake",
+        "button_text": "Order Now",
+        "button_link": "shopify:\/\/products\/mini-eggs-all-in-one-shake",
         "button_text_2": "",
         "button_link_2": "",
         "button_width": 330,
         "button_color": "#ffffff",
-        "button_background_color": "#0166cc",
+        "button_background_color": "#cb9ed5",
         "button_color_hover": "#232323",
         "button_background_color_hover": "#fff9e9",
         "button_font_size": 28,

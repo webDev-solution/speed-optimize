@@ -251,9 +251,11 @@
     </div>
     <!-- ************************************ -->
     <div class="absolute z-100 lg:bg-transparent brand-contents-saturn">
-      <div>
-        <img src="{{ section.settings.top_logo_image | img_url: '2000x500'  }}" class="logo-image-saturn" />
-      </div>
+      {% if section.settings.top_logo_image != blank %}
+        <div>
+          <img src="{{ section.settings.top_logo_image | img_url: '2000x500'  }}" class="logo-image-saturn" />
+        </div>
+      {% endif %}
       <div class="promo-banner-saturn">
         <!-- <h1 class="promo-banner-title-saturn">A gift from us to you</h1>
         <p class="promo-banner-subtitle-saturn">25% off everything</p> -->

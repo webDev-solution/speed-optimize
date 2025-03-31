@@ -14,6 +14,14 @@
           "type": "info",
           "settings": {}
         },
+        "text_Titc9F": {
+          "type": "text",
+          "settings": {
+            "display_on_card": false,
+            "text": "",
+            "icon": "check-mark"
+          }
+        },
         "655eabaf-9b18-4a7c-a317-4b729a9c9dfc": {
           "type": "inline_richtext",
           "settings": {
@@ -87,6 +95,7 @@
       "block_order": [
         "cb1a85e5-41f4-439e-a3ba-533149722caf",
         "info_FRYpPy",
+        "text_Titc9F",
         "655eabaf-9b18-4a7c-a317-4b729a9c9dfc",
         "7af786d8-f426-40c5-a82e-eb13deac98bd",
         "ba6279c8-91c7-427e-9edd-db56825620dc",

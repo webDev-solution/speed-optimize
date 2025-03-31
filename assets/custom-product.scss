@@ -1256,7 +1256,9 @@ cursor: pointer;
     }
   }
 }
-
+.gift-card-product-template .feature-media-item .first-block .grid-columns {
+  grid-template-columns: 1fr !important;
+}
 // .sample-pack-product-template {
 //   ul.feature-media-list {
 //     li.feature-media-item {

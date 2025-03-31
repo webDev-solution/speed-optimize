@@ -94,7 +94,7 @@
           }
         },
         "c6b65590-9a3e-4f8f-a5dc-597f7fc1e374": {
-          "type": "shopify:\/\/apps\/junip-product-reviews-ugc\/blocks\/junip-review-carousel\/dc14f5a8-ed15-41b1-ad08-cfba23f9789b",
+          "type": "shopify:\/\/apps\/junip\/blocks\/junip-review-carousel\/dc14f5a8-ed15-41b1-ad08-cfba23f9789b",
           "disabled": true,
           "settings": {
             "reviewsType": "product_reviews",
